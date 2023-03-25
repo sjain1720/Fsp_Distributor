@@ -1,0 +1,61 @@
+.Distributor{
+    position: relative;
+    top: 10px;
+}
+
+.Manufacturer{
+    position: absolute;
+    left: 200px;
+    top: 6%;
+}
+
+.retailer{
+    position: absolute;
+    left: 400px;
+    top: 6%;
+}
+.Institutional{
+    position: absolute;
+    left: 600px;
+    top: 0;
+}
+.OEM{
+    position: absolute;
+    left: 800px;
+    top: 0;
+}
+.Supermarket{
+    position: relative;
+    top: 120px;
+}
+
+.buy_sell{
+    position: absolute;
+    left: 200px;
+    top: 100%;
+    
+}
+.super_stockist{
+    position: absolute;
+    left: 400px;
+    top: 100%;
+}
+.service_provider{
+    position: absolute;
+    left: 600px;
+    top: 95px;
+}
+
+@media only screen and (max-width: 400px) {
+    /* .Distributor,.Manufacturer,.retailer,.Institutional,
+    .OEM,.Supermarket,.buy_sell,.super_stockist,.service_provider{
+        width: 1px;
+        height:1px;
+    } */
+    .circle1{
+        display: none;
+    }
+    .bgimage{
+        height: 300px;
+    }
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog</title>
+    <link rel = "icon" href ="logo.jpg"  type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+<style>
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 500px;
+  border: 3px solid #f1f1f1;
+  z-index: 500;
+  
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+<body style="background-color: #534D41;">
+  <div class="row " style="background-color:black">
+    <div class="col-sm-2 col-xs-12">
+        <img src="logo.jpg" class="img">
+            <h3 style="color: white;"> BRANS<br>
+             CONSULTANTS</h3>
+    </div>
+    <div class="col-sm-8 col-xs-10 " style="background-color: black;">
+        <div class="row centermenu" style="background-color: black; width: 110%; margin-left: 10%;">
+            <input type="text" placeholder="Search..">
+                <button id="buttonone"onclick="window.location='login.html'">Login</button>
+                <button id="buttontwo" onclick="window.location='signup.html'">Register</button>
+                
+        </div>
+        <div class="row" style="background-color: black; width: 110%; margin-left: 10%;">
+            <nav class="navbar navbar-inverse" style="background-color: black;">
+                <div class="container-fluid">
+                <nav class="navbar navbar-inverse">
+                   
+              <div class="navbar-header" style="background-color: black;">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>
+              
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar" style="background-color: black;">
+                  
+                  <ul class="nav navbar-nav">
+                  
+                    <li > <a href="index.html">HOME </a>  </li>
+                  
+              
+                  </ul>
+                  
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">CATEGORIES
+                      <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="dist.html">MANUFACTURER</a></li>
+                            <li><a href="dist.html">DISTRIBUTOR</a></li>
+                            <li><a href="dist.html">SUPER STOCKIST</a></li>
+                            <li><a href="dist.html">SERVICE PROVIDER</a></li>
+                            <li><a href="dist.html">RETAILER</a></li>
+                            <li><a href="dist.html">BUY/SELL</a></li>
+                            <li><a href="dist.html">OEM MANUFACTURING</a></li>                        
+                            <li><a href="dist.html">MODERN TRADE PARTNER</a></li>
+                            <li><a href="dist.html">INSTITUITIONAL PARTNER</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                  <ul class="nav navbar-nav">
+                    <li>
+                        <a href="Overseas.html">OVERSEAS</a></li>
+              
+                  </ul>
+                
+                  <ul class="nav navbar-nav">
+                    <li>
+                        <a href="Directory.html">DIRECTORY</a></li>
+              
+                  </ul>
+                  <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">ABOUT US</a></li>
+              
+                  </ul>
+                  
+                  <ul class="nav navbar-nav">
+                    <li>
+                        <a href="Works.html">HOW IT WORKS</a></li>
+              
+                  </ul>
+                  <ul class="nav navbar-nav">
+                    <li>
+                        <a href="blog.html">BLOGS</a></li>
+              
+                  </ul>
+                 
+                      
+                </div>
+              </div>
+                
+              </nav>
+              
+              
+        </div>
+    </div>
+    <div class="col-sm-2 visitor" style=" margin-top: 60px;">
+        <span style="color: white; font-size: 18px;float: right; " >
+            <p><span class="glyphicon glyphicon-eye-open"></span>Visitors:0</p>    
+      
+        </span>
+      
+    </div>
+    
+    
+</div>
+	<br><br>
+  
+	<input type="reset" value="Add Your Blog" onclick="openForm()" style="color:black; font-size:15px; border: 2px solid; padding:10px; border-radius:8px; background-color:#f5fffa;position:absolute;margin-left:45%;">
+				
+				<div class="form-popup" id="myForm">
+				  <form action="/action_page.php" class="form-container">
+					
+					<input type="text" placeholder="Date" style="background-color: rgb(230, 233, 206);" name="date" required>
+					<input type="text" placeholder="Name" style="background-color: rgb(230, 233, 206);" name="cname" required>
+					<textarea name="msgg" id="" cols="30" rows="10" style="width: 100%; padding: 10px; border:none; background-color: rgb(230, 233, 206);" placeholder="Write Your Blog..."  required></textarea>
+
+					<button type="submit" class="btn" style="margin-left:40px; background-color:green; color:white;">Post Your Blog</button>
+					<button type="button" class="btn cancel" style="background-color:red; color:white;" onclick="closeForm()">Cancel</button>
+				  </form>
+				</div>	
+		
+	<br><br><br><br>			
+
+<div class="container">	
+<div class="row">
+  
+	  <div class="col-sm-4">
+		<img src="blog1.png" alt="" style="display: inline-block; margin-top:00px;width:100%; height:450px;">
+	  </div>
+	  
+	  <div class="col-sm-8"> <div style="background:white;padding:20px;">
+			<p style="color:black; font-size:20px;"><strong>How this Kolkata mother-daughter duo built Scoopski, a Rs 30 lakh dessert business</strong></p> <br>
+			 <div class="ex3">
+			 <p>Kolkata-based Scoopski makes edible cookie dough that can be consumed straight from the jar, baked into cookies, or used as a topping. Millennials are often criticised for a number of things. The most popular myth about these young adults is that they are a bunch of slackers. The older generation endlessly complains about how lazy and impatient they are. 
+				Kolkata-based foodtech startup Scoopski is an outcome of one such ‘impatient millennial who couldn’t wait for her dessert’ - says 23-year-old Founder Vedika Tibrewal.</p>
+			 <strong>Story so far :</strong>An economics major student from Kolkata’s St Xavier’s College, Vedika travelled to the US in 2017 to attend Harvard Summer School. On a trip to New York City with friends, she visited a cafe, Cookie DO Confections. It was swarming with people, including celebrities, queueing up for its unique offering - edible cookie dough. Vedika was surprised to see the crowd. “I would have never waited that long to try the cookie dough, if my friends hadn’t insisted,” she recalls. After two hours, she discovered something she had never tasted before. “It was super fudgy and indulgent!”
+							She started experimenting in her home kitchen, trying to recreate New York’s edible cookie dough. “My inexperience in the kitchen was an advantage as I tried creating a no-frills dessert that could be customised and played with,” she says. After spending endless hours in the kitchen, she finally cracked the recipe and sent out scoops of cookie dough to her friends and family. On receiving positive feedback, with her friends wanting more, Vedika started taking orders for scoops of cookie dough, which she christened Scoopski. Vedika’s mother, Sonal, helped her with sourcing products and 
+							preparing the dough. The duo first tested the product at a flea market in Kolkata’s Hindustan Park February 2018. ncouraged by the response to the product, Vedika went in for product and packaging development. She also convinced her mother, Sonal, to join her in the venture. <br>
+		  </div> 
+		  <form action="/action_page.php">
+			<input type="image" src="like.png" alt="Submit" width="48" height="48"> 
+		</form>
+		
+		<form action="/action_page.php">
+			<input type="image" src="share.jpg" alt="Submit" width="48" height="48">
+		</form>
+		</div>
+		</div>
+		
+</div>
+
+<br><br><br>
+  
+<div class="row">
+  
+	  <div class="col-sm-4">
+		<img src="blog2.jpg" alt="" style="display: inline-block; margin-top:00px;width:100%; height:450px;">
+	  </div>
+	  
+	  <div class="col-sm-8"> <div style="background:white;padding:20px;">
+			<p style="color:black; font-size:20px;"><strong>How a WhatsApp group metamorphosed into a telemedicine collective to combat COVID-19</strong></p> <br>
+			 <div class="ex3">
+			 <p>Project StepOne is a telemedicine collective that brings together 21 startups, over 6,000 volunteer doctors, and active citizenry to power state government helpline numbers and take the fight to COVID-19.</p>
+		 <p>In March 2020, India announced Lockdown 1.0 to control the spread of the novel coronavirus. By then, a team of telemedicine startups had realised that the only way to stop the spread of the pandemic was to quickly identify COVID-19 suspects, 
+			and isolate, test, and quarantine them.  This led to the birth of Project StepOne, a COVID-19 telemedicine collective that brings together the largest number of nationwide volunteer doctors, 21 startups, and active citizenry to power state government helpline numbers to combat the disease.
+			Project StepOne is an empanelled partner for telemedicine consultations that enables free teleconsultation for those with COVID-19 symptoms.The COVID triage helpline uses technology to screen every call and segregate COVID and non-COVID callers. People who may be infected are connected to 
+			volunteer doctors via phone consultations. The system, which uses cloud telephony, can scale as calls increase so doctors can screen patients for COVID-19 symptoms and direct them to an appropriate government facility.</p>
+		  </div> 
+		  <form action="/action_page.php">
+			<input type="image" src="like.png" alt="Submit" width="48" height="48"> 
+		</form>
+		
+		<form action="/action_page.php">
+			<input type="image" src="share.jpg" alt="Submit" width="48" height="48">
+		</form>
+		</div>
+		
+		</div>
+  
+</div>
+
+<br><br><br>
+
+<div class="row">
+  
+	  <div class="col-sm-4">
+		<img src="blog3.jpg" alt="" style="display: inline-block; margin-top:00px;width:100%; height:450px;">
+	  </div>
+	  
+	  <div class="col-sm-8"> <div style="background:white;padding:20px;">
+			<p style="color:black; font-size:20px;"><strong>HWith its green energy solutions, this auto-ancillary company clocks over Rs 70 Cr turnover today</strong></p> <br>
+			 <div class="ex3">
+			 <p>The future of the automobile industry lies in sustainable mobility. Manufacturing companies like Bosch and Continental predict that by 2030, the world would be focussed entirely on electric mobility, with research on fuel cells making considerable progress.</p>
+		 <p>Gurugram-based auto-ancillary company Green Fuel Energy Solutions, founded by Akshay Kashyap, has been building sustainable kits for the automobile industry since 2006. The company started with making CNG kits for auto manufacturers such as Tata Motors and Ashok Leyland. From 2010 onwards, the idea of building a great business around electric vehicles started gathering steam.
+			Green Fuel Energy’s business is primarily focussed on B2B customers for its CNG kits and supplies to the likes of Maruti Suzuki, Tata Motors, and Ashok Leyland. Akshay started the business in 2006 with a capital of Rs 40 lakh. Today, he has built a self-funded, zero-debt, profitable, and cash rich company with a turnover of Rs 76 crore.
+			When he first started working in the US after graduating from the Florida Institute of Technology in 2001, Akshay was working on components used in natural gas vehicles. When he returned to India, he realised that there was a huge gap in what the world was using, and what India used for natural gas vehicles. He initially started sourcing international standard components at the Indian 
+			value price. The company has expertise in mechanical, mechatronics, and electronics fields, and hence, can handle not just mechanical parts but also focus on the software that runs these products. It also focusses on building high pressure, low pressure, and electronics components. Green Fuel Energy has a commercial engagement with Germany-based auto parts supplier WEH GmbH.</p>
+		  </div> 
+		  <form action="/action_page.php">
+			<input type="image" src="like.png" alt="Submit" width="48" height="48"> 
+		</form>
+		
+		<form action="/action_page.php">
+			<input type="image" src="share.jpg" alt="Submit" width="48" height="48">
+		</form>
+		
+		</div>
+		</div>
+</div> 
+</div>
+	
+<div class="container">
+    <ul class="pagination"><li class="page-item disabled"><span class="page-link">«</span></li> <li class="page-item active"><span class="page-link">1</span></li> <li class="page-item"><a href="#" class="page-link">2</a></li> <li class="page-item"><a href="#" class="page-link">3</a></li> <li class="page-item"><a href="#" class="page-link">4</a></li> <li class="page-item"><a href="#" class="page-link">5</a></li> <li class="page-item"><a href="#" class="page-link">6</a></li> <li class="page-item"><a href="#" class="page-link">7</a></li> <li class="page-item"><a href="#" class="page-link">8</a></li> <li class="page-item"><a href="#" class="page-link">9</a></li> <li class="page-item"><a href="#" class="page-link">10</a></li> <li class="page-item"><a href="#" class="page-link">11</a></li> <li class="page-item"><a href="#" rel="next" class="page-link">»</a></li></ul>
+</div>
+<div>
+  <footer class="footer-distributed">
+ 
+    <div class="footer-left">
+  <img src="logo.jpg">
+        <h3>About<span> Brans Consultants</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">Blog</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">© 2019 Brans Consultants Pvt. Ltd.</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>309 - XYZ,
+                 Bldg. No. A - 1, Sector - 1</span>
+                Mahape, Navi Mumbai - 400710</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 22-27782183</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@bransconsultants.com">support@bransconsultants.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+</div>
+</body>
+</html>
+
+<style>
+
+div.ex3 {
+  width: 100%;
+  height: 280px;
+  overflow-x: auto;
+}
+
+form {
+    display: inline-block;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  }
+   
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+</style>

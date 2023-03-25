@@ -1,0 +1,498 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgimage{
+	background-image: url('meeting.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+  height: 100vh;
+  
+}
+
+.img{
+	width: 30%;
+	height: 45px;
+	margin-left: 82px;
+}
+.menu{
+	width:100%;
+	height:100px;
+
+}
+
+.chatbot{
+  display: none;
+}
+.nav navbar-nav ul :hover
+{
+background-color: #50E3C2;
+}
+.leftmenu{
+	width: 25%;
+	float:left;
+	font-weight: bold;
+	color:#50E3C2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.leftmenu h4{
+	padding-left: 90px;
+	/*margin-top: 55px;*/
+	font-size:18px;
+	/*line-height: 10px;*/
+	
+}
+
+.leftmenu h1{
+	padding-left: 55px;
+	font-size:18px;
+	margin:2px 0px 0px;
+	/*line-height: 17px;*/
+}
+
+.rightmenu{
+	width: 100%;
+	height:100px;
+  float:right;
+  margin-top: -30px;
+}
+
+.rightmenu ul{
+	margin-left: 50px;
+}
+
+.rightmenu ul li{
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	margin-top: 10px;
+	font-size: 15px;
+	color: white;
+	width: 120px;
+	background-color: rgba(0,0,0,0.5);
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	height: 30px;
+	/*border: 1px solid white;*/
+	text-transform: uppercase;
+	float:left;
+}
+
+#start{
+	color: black;
+	background-color: #50E3C2;
+}
+
+.rightmenu ul li:hover{
+	color: black;
+  background-color: #50E3C2;
+  
+}
+
+.rightmenu ul ul{
+	display: none;
+	width:180;
+}
+
+.rightmenu ul li:hover >ul{
+	display: block;
+}
+
+.text{
+	width: 40%;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: black;
+	text-align: left;
+}
+
+.text h4{
+	font-size: 45px;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+.text h1{
+	font-size: 45px;
+	margin:8px 0px 0px;
+}
+
+#buttonone{
+	background-color: #50E3C2;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 30px;
+	width: 80px;
+	margin-top: 15px;
+	border: 3px solid #50E3C2;
+  margin-left: 0px;
+  ;
+}
+
+#buttontwo{
+	background-color: #50E3C2;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 30px;
+	width: 80px;
+	margin-top: 15px;
+	border: 3px solid #50E3C2;
+	
+}
+
+#buttonthree{
+	background-color: #FFA62F;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	line-height: 30px;
+	width: 100px;
+	margin-top: 15px;
+	border: 3px solid #FFA62F;
+	
+}
+
+.centermenu input[type=text] {
+  float: center;
+  padding: 6px;
+  border: white;
+  margin-top: 8px;
+  width: 40%;
+  margin-right: 15px;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  line-height: 10px;
+  border: 1px solid white;
+}
+
+.circle_content{
+  display: none;
+}
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .centermenu a, .centermenu input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .mobile{
+    width: 40%;
+  }
+  .centermenu input[type=text] {
+    border: 0px solid #ccc;
+  }
+
+  .visitor{
+    display: none;
+  }
+
+  .success{
+    color: rgb(175, 96, 42);
+    font-size: 15px;
+    margin-top: 150px;
+    margin-left: 10px;
+   /* display: none; */
+  }
+
+  .chat{
+    display: none;
+  }
+  .circle_content{
+    display: block;
+  }
+/* 
+  #stylo
+  {
+   margin-top: 100%;
+   margin-left: 345px;
+  }
+  #adj
+  {
+    font-size: 10px;
+  } */
+  .chatbot
+  {
+   display: inline-block;
+   z-index: 1;
+  
+  
+  }
+  .noshow
+  {
+    display: none;
+  }
+
+}
+
+.circle
+{
+    margin-top: 50px;
+    position: relative;
+}
+
+/*1st circle start */
+.style-kb4ru6w1[data-is-responsive=false] {width:0 !important;min-width:0 !important;}
+.style-kb4ru6w1[data-must-have-min-width=true] {min-width:10px !important;}
+.style-kb4ru6w1[data-is-responsive=false] .style-kb4ru6w1line {margin-left:42px;width:100%;}
+.style-kb4ru6w1line {border-left:5px dotted rgba(53, 151, 129, 1);height:100%;}
+/*1st circle end */
+/* for padding of 1st circle*/
+.style-kb4rq6lv {box-sizing:border-box;border-top:5px dotted rgba(53, 151, 129, 1);height:0;}
+#head1
+{
+    padding-left: 100px;
+    margin-top: 5px;
+}
+
+#head2
+{
+    padding-left: 300px;
+    margin-top: -150px;
+}
+#head3
+{
+    padding-left: 200px;
+    margin-top: -150px;
+}
+#head33
+{
+    padding-left: 200px;
+    margin-top: 0px;
+}
+#head4
+{
+margin-top: 0px;
+margin-left: -130px;
+}
+#head44
+{
+    margin-top: -90px;
+margin-left: -130px;
+}
+#head5
+{position: static;
+    padding-left: 100px;
+    margin-top: 0;
+}
+#head55
+{margin-top: 0px;
+    padding-left: -5px;
+}
+#low
+{
+    float: left;
+    margin-left: -200px;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+}
+ 
+@media (max-height:800px){
+  footer { position: static; }
+  header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+  background-color: #2c292f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+  width: 30%;
+}
+ 
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+  width: 30%;
+}
+ 
+.footer-distributed h3 span{
+  color:  #e0ac1c;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+  width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+  color:  #e0ac1c;
+  text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+  width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+ 
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+ 
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+ 
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+ 
+ 
+@media (max-width: 880px) {
+ 
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+ 
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+ 
+}
+.left{ margin-left:5%; float: left; width: 28%;height: 150%; }
+.right{  margin-right: 6%; float: right; width: 28%; height: 150%;}
+.center{ display: inline-block;margin-left:2.5% ; width: 28%;height: 150%; }
+
+.color-txt{
+	color: whitesmoke;
+	height: 300px;
+}
+.centert {
+	display: block;
+margin-left: auto;
+	margin-right: auto;
+	
+  }
+
+
+  

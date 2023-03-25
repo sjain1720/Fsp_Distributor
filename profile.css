@@ -1,0 +1,93 @@
+
+.dimen{
+        /* width:600px;
+        height:800px; */
+        border:2px solid black;
+        position: absolute;
+        margin: auto;
+        margin-top: 40px;
+        margin-left: 50%;
+        background-color: rgb(145,230,181);
+		margin-bottom:50px;
+		border-radius:8px;
+		padding-top: 20px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+	
+body{  
+  background-color: black; 
+}
+.details{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    font-size: 20px;
+    background-color: rgb(145,230,181);
+}
+
+.login{
+    background-color: black;
+     width: 80%;
+     color: white;
+      height: 30px; 
+     
+     font-size: 15px;
+}
+
+
+.line{
+    width:400px;
+    top: 45px;
+    border:1px solid #faf3f3;
+    position: relative;
+    font-size: 10px;
+}
+
+
+.gmail{
+    position: relative;
+  
+    font-size: 20px;
+}
+
+
+
+.fb {
+    position: relative;
+    background-color: #3B5998;
+    color: white;
+    font-size: 15px;
+  }
+  
+.google {
+    position: relative;
+    background-color: #dd4b39;
+    color: white;
+    font-size: 15px;
+}
+
+.btn {
+    position: absolute;
+    position: center;
+    width: 180px;
+    height: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+.already{
+    position: relative;
+    font-size: 20px;
+}
+  
